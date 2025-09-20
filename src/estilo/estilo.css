@@ -1,5 +1,5 @@
 body{
-    width: 100vw;
+    max-width: 100vw;
     margin: 0;
     padding: 0;
     background-color: #DFD0B8;
@@ -34,15 +34,55 @@ body{
 
 /* -- Banner -- */
 
-.banner{
+.banner {
     background-color: #3C5B6F;
-    max-width: 100vw;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;
+    gap: 2rem; /* espaço entre logos */
     padding: 1rem;
+    box-sizing: border-box;
 }
 
-.banner img{
-    border-radius: 22px;
+.banner img {
+    max-width: 380px;   /* aumenta o tamanho máximo */
+    width: auto;        /* não força esticar */
+    height: auto;       /* mantém proporção */
+    flex-shrink: 0;     /* impede que sejam "amassados" */
+    border-radius: 12px;
+}
+
+/* -- Loja -- */
+
+.loja{
+    width: 100%;
+}
+
+.loja-div1{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+.loja-titulo{
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+}
+
+.loja-titulo h2{
+    color: #153448;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.loja-div1 p{
+    margin-top: 0rem;
+    color: #153448;
+    font-size: 52px;
+    font-weight: 100;
 }
 
