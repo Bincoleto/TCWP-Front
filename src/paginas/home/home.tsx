@@ -1,6 +1,7 @@
 import Banner from "../../componetes/banner/banner"
 import Cabecalho from "../../componetes/cabecalho/cabecalho"
 import Loja from "../../componetes/loja/loja"
+import RecebaNovidades from "../../componetes/novidades/novidades"
 
 function Home(){
     return(
@@ -8,6 +9,7 @@ function Home(){
             <Cabecalho/>
             <Banner/>
             <Loja/>
+            <RecebaNovidades/>
         </div>
     )
 }
