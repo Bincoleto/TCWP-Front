@@ -141,3 +141,41 @@ body{
     font-size: 30px;
 }
 
+/* -- Footer -- */
+
+.rodape-principal{
+    background-color: #153448;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.rodape-principal p{
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+.rodape-div1{
+    display: flex;
+}
+
+.rodape-div1-item div{
+    margin: 0px;
+    display: flex;
+    gap: 4px;
+}
+
+.rodape-div1-item div h5{
+    margin: 0;
+    padding: 12px;
+    width: 60%;
+    font-size: 48px;
+}
+
+.rodape-div1-item p{
+    margin: 0;
+    margin-top: 1.2rem;
+    font-size: 30px;
+    text-align: left;
+}
