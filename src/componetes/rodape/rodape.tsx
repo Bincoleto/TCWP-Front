@@ -11,7 +11,6 @@ function Rodape(){
                     <p>Sua loja de pedais novos e usados</p>
                 </div>
             </div>
-
         <p>2025 The Crazy World Pedals. Todos os direitos reservados</p>
         </div>
     )
