@@ -3,7 +3,7 @@ function RecebaNovidades(){
         <>
           <div className="recebaNovidedes">
             <div className="recebaNovidades-item">
-                <h3>Receba Novidades e Promoções</h3>
+                <h3>Receba Novidades</h3>
                 <p>Inscreva-se em nossa newsletter para receber novidades, dicas e promoções exclusivas</p>
 
                 <div className="recebaNovidades-divemail">

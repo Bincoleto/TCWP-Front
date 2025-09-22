@@ -179,3 +179,55 @@ body{
     font-size: 30px;
     text-align: left;
 }
+
+
+/* -- Inicio CSS Pagina Sobre Nos -- */
+
+.sobrenos-principal{
+    width: 100%;
+    text-align: center;
+}
+
+.sobrenos-principal h2{
+    color: #153448;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.sobrenos-div{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.sobrenos-div-item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.sobrenos-div-item p{
+    margin: 0;
+    width: 50%;
+    color: #153448;
+    font-size:  54px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.sobrenos-div-item strong{
+    font-size:  48px;
+    font-style: normal;
+}
+
+.sobrenos-div-item a{
+    text-decoration: none;
+    border-radius: 22px;
+    background-color: #3C5B6F;
+    color: white;
+    padding: 1rem 4rem;
+    font-size: 58px;
+}
+/* -- Fim CSS Pagina Sobre Nos -- */
