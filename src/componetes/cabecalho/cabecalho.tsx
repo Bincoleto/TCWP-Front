@@ -8,7 +8,7 @@ function Cabecalho(){
 
             <nav className="menu">
                 <a href="./">Home</a>
-                <a href="./">Sobre Nós</a>
+                <a href="./Sobrenos">Sobre Nós</a>
                 <a href="./">Loja</a>
                 <a href="./">Login</a>
             </nav>
